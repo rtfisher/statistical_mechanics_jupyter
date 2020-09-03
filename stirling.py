@@ -22,16 +22,12 @@ def logfact (n) :
    e = math.exp (1.)
 
    a = 1. / 12.
-   b = 1. / 288.
-   c = 139. / 51840.
-   d = 571 / 2488320.
+   b = # continue definition here
 
 # Stirling approximation diverges as n -> 0; set this by hand.
 
    if (n > 1) :
-     correction = 1 + a  / n + b / n**2. - c / n**3. - d / n**4.
-     logcorr    = math.log (correction)
-     val = 0.5 * math.log (2. * pi * n) + n * math.log (n / e) + logcorr
+     val =
    else :
      val = 0
 
