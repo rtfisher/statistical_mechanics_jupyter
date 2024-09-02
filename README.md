@@ -13,17 +13,10 @@ Steps to Get Started
 
 2. Clone the Repository
    --------------------
-   First, download (or "clone") the repository to your computer.
+   First, download (or "clone") the repository to your computer. The command is the same across all operating systems, but on Windows, make sure you're running the command in **Command Prompt** or **PowerShell**. On Linux or OS/X, use the **terminal**.
 
-   - **For OS/X and Linux**:
-     Open the **Terminal** and type:
-     ```
-     git clone https://github.com/rtfisher/statistical_mechanics_jupyter.git
-     cd statistical_mechanics_jupyter
-     ```
-
-   - **For Windows**:
-     Open **Command Prompt** or **PowerShell** and type:
+   - **For OS/X, Linux, and Windows**:
+     Type:
      ```
      git clone https://github.com/rtfisher/statistical_mechanics_jupyter.git
      cd statistical_mechanics_jupyter
@@ -31,19 +24,12 @@ Steps to Get Started
 
 3. Build the Docker Image
    ----------------------
-   We use a Dockerfile (renamed to `statmech_dockerfile`) to set up the environment for the Jupyter notebook.
+   We use a Dockerfile (renamed to `statmech_dockerfile`) to set up the environment for the Jupyter notebook. Again the command is the same across all operating systems.
 
-   - **For OS/X and Linux**:
+   - **For OS/X, Linux, and Windows**:
      ```
      docker build -t statistical_mechanics_jupyter -f statmech_dockerfile .
      ```
-
-   - **For Windows**:
-     ```
-     docker build -t statistical_mechanics_jupyter -f statmech_dockerfile .
-     ```
-
-     The command is the same across all operating systems, but on Windows, make sure you're running the command in **Command Prompt** or **PowerShell**.
 
 4. Run the Docker Container
    ------------------------
