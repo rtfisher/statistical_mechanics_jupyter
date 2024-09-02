@@ -45,7 +45,7 @@ Steps to Get Started
      docker run -p 8888:8888 -v "%cd%":/app statistical_mechanics_jupyter
      ```
 
-     - `$(pwd)` on OS/X and Linux gets replaced by `%cd%` on Windows.
+     - `$(pwd)` (a command which returns the path to the working directory) on OS/X and Linux gets replaced by `%cd%` (change directory) on Windows.
      - The rest of the command remains the same, ensuring the notebook server inside the container is connected to your computer on port 8888 and the files in this directory are available inside the container.
 
 5. Access the Jupyter Notebook
