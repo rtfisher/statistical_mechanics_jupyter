@@ -60,7 +60,7 @@ Steps to Get Started
    Important: Use the Token
    ------------------------
    To access the notebook:
-   1. **Copy** the URL that looks like `http://127.0.0.1:8888/?token=your_token_here`.
+   1. **Copy** the URL that looks like `http://127.0.0.1:8888/?token=your_token_here`. (Just be sure to use the exact token displayed, not your_token_here!!)
    2. **Paste** it into your web browser’s address bar.
    3. **Press Enter** to open the Jupyter Notebook.
 
