@@ -1,4 +1,4 @@
-README: Running the Statistical Mechanics Jupyter Notebook in a Docker Container
+README: Running the Statistical Mechanics Jupyter Notebook 
 
 Overview
 --------
