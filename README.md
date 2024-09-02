@@ -2,7 +2,7 @@ README: Running the Statistical Mechanics Jupyter Notebook in a Docker Container
 
 Overview
 --------
-This guide will help you run the Statistical Mechanics Jupyter notebook from this repository using Docker. Even if you’ve never used Docker before, these steps will guide you through the process.
+If you have a Python environment including Jupyter already installed on your computer, you may simply load the notebook directly on your machine. The remainder of this guide will help you run the Statistical Mechanics Jupyter notebook from this repository using a Docker container, without the need to install any additional software. Even if you’ve never used Docker before, these steps will guide you through the process.
 
 Steps to Get Started
 --------------------
