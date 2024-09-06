@@ -66,8 +66,8 @@ Steps to Get Started
 
    This URL includes a special token that lets you access the notebook securely.
 
-6. Start Coding!
-   -------------
+6. Use the Jupyter Notebook!
+   -------------------------
    Once you’re in, you can start working on your Jupyter Notebooks just like normal. All the files in this repository are available in the notebook interface.
 
 Need Help?
