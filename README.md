@@ -24,7 +24,7 @@ Steps to Get Started
 
 3. Build the Docker Image
    ----------------------
-   We use a Dockerfile (renamed to `statmech_dockerfile`) to set up the environment for the Jupyter notebook. Again the command is the same across all operating systems.
+   Launch the Docker client on your computer to start up the Docker daemon. We use a Dockerfile (renamed to `statmech_dockerfile`) to set up the environment for the Jupyter notebook. Again the command is the same across all operating systems.
 
    - **For OS/X, Linux, and Windows**:
      ```
