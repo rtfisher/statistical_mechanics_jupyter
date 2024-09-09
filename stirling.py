@@ -16,19 +16,19 @@ def fact_stirling (n) :
 
 # Define log factorial using Stirling approximation
 
-def logfact (n) :
+#def logfact (n) :
 
-   pi = math.pi
-   e = math.exp (1.)
+#   pi = math.pi
+#   e = math.exp (1.)
 
-   a = 1. / 12.
-   b = # continue definition here
+#   a = 1. / 12.
+#   b = # continue definition here
 
 # Stirling approximation diverges as n -> 0; set this by hand.
 
-   if (n > 1) :
-     val =
-   else :
-     val = 0
+#   if (n > 1) :
+#     val =
+#   else :
+#     val = 0
 
-   return val
+#   return val

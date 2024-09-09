@@ -1,0 +1,25 @@
+# Use the official Python base image
+FROM python:3.9
+
+# Set the working directory in the container
+WORKDIR /app
+
+# Copy the contents of the repository into the container at /app
+COPY . /app
+
+# Install any needed packages specified in requirements.txt
+# If there's a requirements.txt file, uncomment the next line
+# RUN pip install --no-cache-dir -r requirements.txt
+
+# Install Jupyter
+RUN pip install jupyter
+
+# Install additional packages (if any)
+RUN pip install numpy pandas matplotlib
+
+# Expose port 8888 for Jupyter Notebook
+EXPOSE 8888
+
+# Run Jupyter Notebook when the container launches
+CMD ["jupyter", "notebook", "--ip=0.0.0.0", "--port=8888", "--no-browser", "--allow-root"]
+
