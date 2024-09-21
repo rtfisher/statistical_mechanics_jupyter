@@ -70,9 +70,9 @@ def totalmultiplicity (N1, N2, s):
 
   plt.xlabel('$s_1 / N_1$', fontsize=30)
   plt.ylabel('Multiplicity', fontsize=30)
-  plt.grid(b=True, which='major', color='DarkTurquoise', alpha=0.4, linestyle=':', linewidth=2)
+  plt.grid(True, which='major', color='DarkTurquoise', alpha=0.4, linestyle=':', linewidth=2)
   plt.minorticks_on()
-  plt.grid(b=True, which='minor', color='beige', alpha=0.2, linestyle='-', linewidth=2)
+  plt.grid(True, which='minor', color='beige', alpha=0.2, linestyle='-', linewidth=2)
   plt.tick_params(axis='both', which='major', labelsize=10)
   plt.tick_params(axis='both', which='minor', labelsize=8)
 
